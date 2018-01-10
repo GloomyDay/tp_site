@@ -1,0 +1,18 @@
+.issue_desc_class{
+    white-space: nowrap;
+    width: 200px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.subject_class{
+    white-space: nowrap;
+    width: 70px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.margin_from_top{
+    margin-top: 100px;
+}
+#but1{
+    margin-top: 1%;
+}

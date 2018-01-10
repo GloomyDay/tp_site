@@ -1,0 +1,98 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 17, 2017, 2:15:40 AM
+    Author     : akrotov
+*/
+body {
+    margin: 0;
+    background-size: 100%;
+    background-color:  #1f3d7a;
+}
+.text_it {
+    margin-left: 2%;
+    margin-right: 2%;
+    font-family: serif;
+    font-size: xx-large;
+}
+.board{
+    margin: 0;
+    vertical-align: top;
+    position: absolute;
+    width: 100%;
+    border: 4px ridge #8c8c8c;
+    border-radius: 5px;
+}
+.img_alighn{
+    margin-left: 1%;
+    vertical-align: middle;
+}
+.logout{
+    float: right;
+    margin-right: 2px;
+    margin-top: 2px;
+}
+.logo{
+    width: 50%;
+    float: left;
+    background-color: #8c8c8c;
+  
+}
+.buttons{
+    width: 50%;
+    float: right;
+    background-color: #8c8c8c;
+    height: 40px;
+}
+.top_line{
+    background-color: #8c8c8c;
+    margin: 0;
+    border: 4px ridge    #001a66;
+    border-radius: 5px;
+    height: 50px;   
+}
+
+.new_issue_form {
+    width: 95%;
+    position: absolute;
+    margin: auto;
+    align: center;    
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    margin-top: 8%;
+    margin-left: 1%;
+    }
+.new_issue_problem_desc{
+    width: 100%;
+    height:200px;
+}
+label {
+    display:inline-block;
+    margin-bottom: 0.5%;
+    margin-top: 0.5%;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+button {
+  display: inline-block;
+  min-width: 110px;
+  margin: 15px 5px;
+  padding: 3px 5px 3px;
+  font: 700 12px/1 'Open Sans', sans-serif;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 1px rgba(0,0,0,.1), inset 0 -10px 20px rgba(0,0,0,.1);
+  cursor: pointer;
+}
+.issues_list{
+    margin-left: 0%;
+}

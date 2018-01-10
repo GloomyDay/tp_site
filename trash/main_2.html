@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="../css_folder/new_issue_form.css">
+        <meta charset="UTF-8">
+        <title></title>                                                            
+        <script type="text/javascript" src="../jquery.js"></script>
+        <script>
+        $(document).ready(function(){
+                $("#div1").load("http://172.16.0.254/tp_site/php_scripts/main.php");
+        });
+        </script>
+        </head>
+    <body>
+        <div class="top_line">
+            <div class="logo">
+                <img class="img_alighn" src="../red_eye_25_25.png">
+                <span class="text_it"> Red eye </span>
+            </div>
+            <div class="buttons">
+                <form method="post" action="../php_scripts/lowogut.php">
+                    <button onclick="" class="logout">Logout</button>
+                </form>   
+            </div>
+        </div>
+        <div id="div1"></div>
+    </body>
+</html>
